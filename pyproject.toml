@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "fundamentals_of_calculus_in_python"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.13"
 jupyterlab = "^4.0.2"
 notebook = "^6.5.4"
 sympy = "^1.12"
