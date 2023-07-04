@@ -11,6 +11,7 @@ python = "^3.11"
 jupyterlab = "^4.0.2"
 notebook = "^6.5.4"
 sympy = "^1.12"
+numpy = "^1.25.0"
 
 
 [build-system]
