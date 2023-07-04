@@ -9,6 +9,7 @@ packages = [{include = "fundamentals_of_calculus_in_python"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 jupyterlab = "^4.0.2"
+notebook = "^6.5.4"
 
 
 [build-system]
