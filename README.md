@@ -2,7 +2,7 @@
 
 ## How to use
 ```sh
-docker compose build
+BUILDKIT_PROGRESS=plain docker compose build
 docker compose run --rm python
 ```
 
