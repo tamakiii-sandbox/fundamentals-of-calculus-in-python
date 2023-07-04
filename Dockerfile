@@ -1,6 +1,7 @@
 FROM python:3.11.4
 
 ENV WORK_DIR=/usr/local/etc/fundamentals-of-calculus-in-python
+ENV PATH=.venv/bin:$PATH
 
 RUN pip install poetry
 
