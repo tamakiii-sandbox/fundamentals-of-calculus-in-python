@@ -10,4 +10,4 @@ uninstall:
 	rm -rf .venv
 
 .venv: pyproject.toml poetry.lock
-	poetry install
+	poetry install --no-root
