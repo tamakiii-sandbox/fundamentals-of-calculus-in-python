@@ -1,0 +1,5 @@
+services:
+  python:
+    build: .
+    volumes:
+      - .:/usr/local/etc/fundamentals-of-calculus-in-python
