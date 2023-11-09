@@ -1,0 +1,7 @@
+services:
+  python:
+    build: .
+    volumes:
+      - .:/usr/local/etc/fundamentals-of-calculus-in-python
+    ports:
+      - ${HTTP_PORT:-8888}:8888

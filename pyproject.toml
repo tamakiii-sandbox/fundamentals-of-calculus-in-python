@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fundamentals-of-calculus-in-python"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "fundamentals_of_calculus_in_python"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+jupyterlab = "^4.0.2"
+notebook = "^6.5.4"
+sympy = "^1.12"
+numpy = "^1.25.0"
+matplotlib = "^3.7.1"
+scipy = "^1.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
